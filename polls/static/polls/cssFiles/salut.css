@@ -1,0 +1,124 @@
+
+.footer{
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #000000;
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+  width: 100px;
+  cursor: pointer;
+  margin: 5px;
+  position: fixed; 
+  top: 85%;
+  left: 90%;
+
+}
+.typewriter {
+  
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+  border-right: .15em solid rgb(255, 255, 255);
+  white-space: nowrap;
+  animation: 
+    typing 5s forwards;
+  font-size: 2rem;
+  width: 3rem;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 40% }
+
+  }
+
+#bg {
+background-size: auto;
+}
+
+.api{
+  color: rgb(185, 218, 175);
+  font-size: 40px;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+}
+
+p{
+  color:#fff
+}
+
+.form-control{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  background-color: #fff;
+  width: 500px;;
+  height: 85px;
+  position: fixed; 
+  top: 50%;
+  left: 40%;
+  display: flex;
+  border-radius:30px;
+}
+
+
+.Submit {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  top: 50%;
+  left:70%;
+  text-decoration: none;
+  border-radius:30px;
+  
+  overflow: hidden;
+}
+
+.Submit:hover, .Submit:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.Submit {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.Submit:hover {
+  box-shadow: 0 0 40px 40px #b6f0d5 inset;
+}
+
+.LonLa{
+  font-size: 40px;
+  position: fixed; 
+  top: 50%;
+  left: 40%;
+}
+
+.contact{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
+  position:fixed;
+  top: 5%;
+  left: 40%;
+  -webkit-animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both
+  
+
+
+}
+.email{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  position:fixed;
+  top: 20%;
+  left: 30%;
+  -webkit-animation:tracking-in-contract-bck-bottom 1s cubic-bezier(.215,.61,.355,1.000) 1s both;animation:tracking-in-contract-bck-bottom 1s cubic-bezier(.215,.61,.355,1.000) 1s both
+  
+
+
+}
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+@-webkit-keyframes tracking-in-contract-bck-bottom{0%{letter-spacing:1em;-webkit-transform:translateZ(400px) translateY(300px);transform:translateZ(400px) translateY(300px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}@keyframes tracking-in-contract-bck-bottom{0%{letter-spacing:1em;-webkit-transform:translateZ(400px) translateY(300px);transform:translateZ(400px) translateY(300px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}

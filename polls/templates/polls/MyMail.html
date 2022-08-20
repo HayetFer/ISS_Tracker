@@ -1,0 +1,43 @@
+{%  extends   'polls/base.html' %}
+ 
+{% load static %}
+
+
+{% block body %} 
+<body id = "bg" style="background-image:url('{% static "polls/images/background.gif" %}') ;">
+  
+    <div class="typewriter">
+        <h1>READY TO SEE THE ISS?</h1>
+      </div>
+      
+
+
+
+ 
+
+
+<div class="form-control">
+<form action="" method="POST">
+
+{% csrf_token %}
+
+{{ form  }}
+<div class="container">
+    <button class="Submit">Submit</button>
+  </div>
+    
+
+<p>
+  {{ acceuil.isslon }}
+</p>
+
+</div>
+
+<article>
+ 
+       <button type = 'button' class="footer"><a href="contact.html" >CONTACT US !</a> </button>
+        
+</article>     
+</body>
+
+{% endblock %}

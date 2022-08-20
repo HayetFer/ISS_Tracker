@@ -1,0 +1,36 @@
+{%  extends   'polls/base.html' %}
+
+
+{% load static %}
+
+
+{% block body %} 
+<body id = "bg" style="background-image:url('{% static "polls/images/background.gif" %}') ;">
+  
+    <div class="typewriter">
+        <h1>WELCOME</h1>
+      </div>
+<p class="LonLa">Longitude : <br>
+Latitude :</p>    
+<p class ="api"> 
+    
+    {{ isslon }} <br>
+  {{ issla }}
+    
+ </p>
+
+
+ 
+
+
+
+
+<article>
+ 
+       <button class="footer">CONTACT US ! </button>
+       
+        
+</article>     
+</body>
+
+{% endblock %}
