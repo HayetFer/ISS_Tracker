@@ -136,5 +136,5 @@ DEFAULT_FROM_EMAIL = 'hayet.ferahi@gmail.com'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'hayet.ferahi@gmail.com'
-EMAIL_HOST_PASSWORD = 'vhqybzvmasvdqnjy'
+EMAIL_HOST_USER = 'XXXXXX'
+EMAIL_HOST_PASSWORD = 'XXXXXXX'
