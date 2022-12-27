@@ -21,10 +21,6 @@ def this_mail(request):
         if form.is_valid():
             
             form.save()
-            
-            
-                
-            
 
             return HttpResponseRedirect('/AddMail?submitted=True')
             
